@@ -1,0 +1,242 @@
+/*--font--*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@500;700&family=Signika+Negative&family=Work+Sans:wght@700&display=swap');
+
+/*--body common style--*/
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700px;
+    /* width: 80%;*/
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.header{
+    background-color: rgba(226, 142, 136, 0.1);
+    width: 1940px;
+height: 1353px;
+margin-bottom: 130px;
+}
+.header img{
+    margin-top: 50px;
+    width: 1440px;
+    height: 698px;
+    justify-content: center;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 130px;
+}
+/*--nav-bar--*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 102px;
+}
+nav h4{
+    font-size: 45px;
+    color: #131313;
+    margin-left: 60px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+nav li{
+    justify-content: space-between;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #424242;
+    margin-right: 60px;
+    
+}
+
+
+/*--next-header style--*/
+.next-header{
+    text-align: center;
+}
+.next-header h2{
+    font-size: 64px;
+    color: #131313;
+    margin-bottom: 0px;
+}
+.next-header p{
+    font-size: 16px;
+    color:  #727272;
+    font-weight: 400px;
+    font-size: 16px;
+    margin-top: 35px;
+}
+button{
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600px;
+    font-size: 20px;
+    
+}
+
+
+/*--main---*/
+.main{display: flex;
+padding-bottom: 130px;
+}
+.pic{
+    width: 342px;
+    height: 342px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+    margin-left: 300px;
+}
+.text{
+    width: 537px;
+    height: 304px;
+    margin-left: 440px;
+    margin-top: 200px;
+}
+.text .list{
+    font-weight: 500px;
+    font-size: 45px;
+    color: #727272;;
+}
+.text .normal{
+    font-weight: 700px;
+    font-size: 45px;
+    color:#131313; ;
+}
+.text .last{
+    font-weight: 700px;
+    font-size: 45px;
+    color: #FF900E;
+}
+.text p{
+    font-weight: 400px;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+/*main end*/
+
+
+
+/*section start*/
+.features{
+    padding-left: 140px;
+    padding-right: 140px;
+    width: 1440px;
+    height: 1059px;
+    display: flex;
+    margin-bottom: 130px;
+}
+.sec-text{
+    margin-top: 170px;
+    width: 586px;
+    height: 982px;
+}
+.features .sec-text .title h2{
+    font-weight: 700px;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 15px;
+    /*b
+    
+    border-right: 60px;*/
+}
+.border{
+    border-left: 5px solid #FF900E;
+    padding: 20px;
+}
+.features .sec-text .title p{
+    font-weight: 400px;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+/*--card start--*/
+.card{
+    width: 500px;
+    height: 149px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.card h5{
+    font-weight: 600px;
+    font-size: 24px;
+    color: #131313;
+    margin: 5px;
+}
+.card p{
+    font-weight: 400px;
+    font-size: 16px;
+    color: #727272;
+}
+
+/* pic-btn style */
+
+.images img{
+    width: 708px;
+    height: 982px;
+    border-radius: 8px;
+    margin-left: 227px;
+    margin-top: 190px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    position: absolute;
+}
+.images .special{
+    width: 272px;
+    height: 150px;  
+    font-size: 40px;
+    background-color: #FF900E;
+    color: white;
+    
+    /*margin-top: -130px;
+    margin-right: 400px;*/
+    
+    /*margin-left: 170px;
+    margin-bottom: 260px;*/
+    /*position: absolute;
+    margin-left: -60px;
+    margin-right: 360px;
+    top: 3245px;*/
+}
+.special{
+    position: relative;
+    margin-top: 1100px;
+    
+}
+.btn-text{
+    
+    font-size: 25px;
+}
+/*facts*/
+.facts{
+    margin-top: 500px;
+    margin-left: 200px;
+}
+.facts h3{
+    font-weight: 700px;
+font-size: 45px;
+color: black;
+}
+
+.facts p{
+    font-weight: 400px;
+font-size: 16px;
+margin-right: 1138px;
+color: #727272;
+margin-bottom: 109px;
+}
