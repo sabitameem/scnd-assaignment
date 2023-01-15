@@ -329,8 +329,7 @@ margin-bottom: 216px;
 @media screen and (min-width: 990px) {
     /* CSS rules for desktop here */
   body{
-    height: auto;
-    width: auto;
+    max-width: 100%;
   }
 
 
