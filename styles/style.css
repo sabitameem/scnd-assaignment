@@ -17,6 +17,7 @@ body{
 background-size: 100%;
 height: 1293px;
 margin-bottom: 130px;
+position: absolute;
 
 
 }
@@ -328,10 +329,7 @@ margin-bottom: 216px;
 
 @media screen and (max-width: 990px) {
     /* CSS rules for desktop here */
-  body{
-    max-width: 100%;
-  }
-
+ 
 
 
 
